@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFA07A; /* Pale salmon color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    background-color: #000; /* Black box */
+    border-radius: 15px; /* Smooth corners */
+    padding: 20px;
+    width: 60%; /* Show 30-40% of the background */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Overlying effect */
+    text-align: center;
+    color: #FFF;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.app-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.app-item {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+.install-button {
+    background-color: #FFA07A; /* Matches background color */
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.install-button:hover {
+    background-color: #FF7F50; /* Darker shade of salmon */
+    color: #FFF;
+}
